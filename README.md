@@ -1,9 +1,9 @@
 # Purrfect_Webpage
 ## A webpage with a simple concept of human-feline dating app.
 ## Built with use of CSS Grid system
+### Responsive and mobile friendly
 ### Tools Used:
-<ul>
-<li> HTML<li>
-<li>CSS</li>
+<ol><li>CSS</li>
 <li>Bootstrap</li>
-</ul>
+<li>HTML</li>
+</ol>
