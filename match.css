@@ -1,0 +1,49 @@
+
+html{
+    height: 100%; /* The background image is larger than our body and html element
+    so we instruct html to take the whole page since the background image takes up whole page*/
+}
+body{
+    background:url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: Fondamento;
+}
+#content{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.2),0px 8px 13px rgba(0,0,0,0.2),
+                0px 18px 23px rgba(0,0,0,0.2);
+                /* adding shadow one after other */
+                    
+    
+}
+.navbar-inverse {
+    background-color: #2c3e50;
+    border-color: #080808;
+}
+h1{
+   
+   font-weight: 700px;
+   font-size:5em; /* 5 times the parent element(body)*/
+}
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+/* above and below copied from inspector select the element>inspect>copy the code
+to change the color of elements in navbar */
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+/* text shadow
+offset-x offset-y = how far from the image should the shadow be
+blur-radius = how much should the blur be
+color of shadow = usually black*/
